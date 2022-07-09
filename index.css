@@ -57,14 +57,24 @@ nav{
     margin: 50px 20px;
     justify-content: space-between;
     background-image: url("./images/image\ 1.png");
-    background-size: auto;
+    background-size: contain;
+    padding: 50px;
 }
 
 .image{
     float: right;
 }
 .vendors{
-    margin: 80px;
+    margin-left: 400px;
+    margin-right: 400px;
+    list-style: none;
+    display: flex;
+    padding: 0px 0px;
+    position: relative;
+    justify-content: space-between;
+    border: 5px solid white;
+    box-shadow: 5px 5px 2px grey;
+    
 }
 
 .exist{
@@ -107,11 +117,64 @@ nav{
 }
 
 #box1,#box2,#box3{
-    height: 400px;
+    /* height: 400px; */
     padding: 20px;
     border: 2px solid white;
     box-shadow: 2px 5px 10px grey;
 }
+
+
+.text{
+margin-bottom: 120px;
+margin-top: 120px;
+margin-left: 10px;
+margin-right: 10px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000px;
+    font-style: oblique;
+}
+
+#box1>img{
+    width: 75px;
+    height:75px;
+    position: relative;
+}
+
+.imageName{
+    position: absolute;
+    left: 200px;
+    bottom: -2029px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+.Doe{
+    position: absolute;
+    left: 800px;
+    bottom: -2029px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+}
+
+#box2>img{
+    width: 75px;
+    height:75px;
+
+    position: relative;
+}
+
+#box3>img{
+    width: 75px;
+    height:75px;
+    position: relative;
+}
+.Lavi{
+    position: absolute;
+    left: 1400px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800px;
+    bottom: -2029px;
+}
+
 
 
 .see,.read{
@@ -124,6 +187,8 @@ nav{
     padding: 50px;
     text-align: center;
 }
+
+
 
 .conclusion{
     text-align: center;
