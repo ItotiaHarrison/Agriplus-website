@@ -1,7 +1,16 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0px;
     font-size: 25px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+p{
+    text-align: ;
 }
 
 .header{
@@ -14,6 +23,7 @@
     background-color: black;
     color: white;
     padding: 20px;
+    margin: 0px;
 }
 
 .nav-links ul li {
@@ -43,9 +53,32 @@ nav{
 .Buying{
     background-image: url("./images/image\ 1.png") ;
     display: flex;
+    margin: 20px;
 }
 
-img{
-    height: 200px;
-    width: 200px;
+.exist{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.popular{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.newest{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.feedback{
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 2px solid white;
+    justify-content: space-between;
+    margin: 20px;
+    
 }
