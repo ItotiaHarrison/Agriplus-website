@@ -23,7 +23,7 @@ p{
     background-color: black;
     color: white;
     padding: 20px;
-    margin: 0px;
+    margin-top: 50px;
 }
 
 .nav-links ul li {
@@ -47,18 +47,28 @@ nav{
     list-style: none;
     text-decoration: none;
     border-top: 2px solid white;
-    padding: 50px;
+    padding: 80px;
 }
 
 .Buying{
-    background-image: url("./images/image\ 1.png") ;
     display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    background-image: url("./images/image\ 1.png");
+    background-size: auto;
+}
+
+.vendors{
     margin: 20px;
 }
 
 .exist{
     display: flex;
     justify-content: space-between;
+    margin: 20px;
+}
+
+.products{
     margin: 20px;
 }
 
@@ -74,11 +84,41 @@ nav{
     margin: 20px;
 }
 
+.customers{
+    margin: 20px;
+}
+
 .feedback{
     display: flex;
-    box-sizing: border-box;
-    box-shadow: 2px solid white;
-    justify-content: space-between;
+    padding: 20px;
     margin: 20px;
-    
+    justify-content: space-between;
+}
+
+#box1,#box2,#box3{
+    height: 200px;
+    padding: 20px;
+    border: 2px solid blue;
+    box-shadow: 2px 5px 10px grey;
+}
+
+.read{
+    padding: 50px;
+}
+
+.see{
+    padding: 50px;
+}
+
+.newsletter{
+    padding: 50px;
+    text-align: center;
+}
+
+.conclusion{
+    text-align: center;
+}
+
+h2{
+    text-decoration: underline;
 }
