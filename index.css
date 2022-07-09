@@ -5,12 +5,14 @@
 }
 
 img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 }
 
-p{
-    text-align: ;
+button{
+    background-color: #ED661F;
+    color: white;
+    padding: 20px;
 }
 
 .header{
@@ -52,14 +54,14 @@ nav{
 
 .Buying{
     display: flex;
-    margin: 20px;
+    margin: 50px 20px;
     justify-content: space-between;
     background-image: url("./images/image\ 1.png");
     background-size: auto;
 }
 
 .vendors{
-    margin: 20px;
+    margin: 80px;
 }
 
 .exist{
@@ -72,6 +74,12 @@ nav{
     margin: 20px;
 }
 
+.categories{
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 20px;
+}
+
 .popular{
     display: flex;
     justify-content: space-between;
@@ -81,7 +89,7 @@ nav{
 .newest{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 50px 20px;
 }
 
 .customers{
@@ -96,18 +104,16 @@ nav{
 }
 
 #box1,#box2,#box3{
-    height: 200px;
+    height: 400px;
     padding: 20px;
     border: 2px solid blue;
     box-shadow: 2px 5px 10px grey;
 }
 
-.read{
-    padding: 50px;
-}
 
-.see{
+.see,.read{
     padding: 50px;
+    text-align: right;
 }
 
 .newsletter{
