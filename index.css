@@ -60,6 +60,9 @@ nav{
     background-size: auto;
 }
 
+.image{
+    float: right;
+}
 .vendors{
     margin: 80px;
 }
