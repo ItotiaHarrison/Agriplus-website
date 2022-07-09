@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+}
+
 .header{
     background-color: black;
     color: white;
@@ -8,4 +14,38 @@
     background-color: black;
     color: white;
     padding: 20px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    padding:20px 100px;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+}
+
+.Agriplus{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    border-top: 2px solid white;
+    padding: 50px;
+}
+
+.Buying{
+    background-image: url("./images/image\ 1.png") ;
+    display: flex;
+}
+
+img{
+    height: 200px;
+    width: 200px;
 }
