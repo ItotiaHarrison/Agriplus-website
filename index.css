@@ -106,7 +106,7 @@ nav{
 #box1,#box2,#box3{
     height: 400px;
     padding: 20px;
-    border: 2px solid blue;
+    border: 2px solid white;
     box-shadow: 2px 5px 10px grey;
 }
 
@@ -114,6 +114,7 @@ nav{
 .see,.read{
     padding: 50px;
     text-align: right;
+    color: black;
 }
 
 .newsletter{
