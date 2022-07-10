@@ -69,9 +69,9 @@ nav{
     margin-right: 400px;
     list-style: none;
     display: flex;
-    padding: 0px 0px;
+    padding: 40px;
     position: relative;
-    justify-content: space-between;
+    justify-content: space-evenly;
     border: 5px solid white;
     box-shadow: 5px 5px 2px grey;
     
