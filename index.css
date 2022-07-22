@@ -12,7 +12,7 @@ img{
 button{
     background-color: #ED661F;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .header{
@@ -28,11 +28,11 @@ button{
     margin-top: 50px;
 }
 
-.nav-links ul li {
-    list-style: none;
+.nav-links a{
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
+    text-decoration: none;
+    
 }
 
 nav{
@@ -63,15 +63,21 @@ nav{
 
 .image{
     float: right;
+    width: 50%;
+}
+
+.image>img{
+    width: 800px;
+    height: 500px;
 }
 .vendors{
     margin-left: 400px;
     margin-right: 400px;
     list-style: none;
     display: flex;
-    padding: 40px;
+    padding: 20px;
     position: relative;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border: 5px solid white;
     box-shadow: 5px 5px 2px grey;
     
@@ -80,11 +86,15 @@ nav{
 .exist{
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 50px;
+}
+
+.wexist{
+    width: 700px;
 }
 
 .products{
-    margin: 20px;
+    margin: 50px;
 }
 
 .categories{
@@ -93,20 +103,15 @@ nav{
     margin-bottom: 20px;
 }
 
-.popular{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
-}
 
-.newest{
+.row{
     display: flex;
     justify-content: space-between;
     margin: 50px 20px;
 }
 
 .customers{
-    margin: 20px;
+    margin: 50px;
 }
 
 .feedback{
@@ -117,7 +122,7 @@ nav{
 }
 
 #box1,#box2,#box3{
-    /* height: 400px; */
+    width: 400px;
     padding: 20px;
     border: 2px solid white;
     box-shadow: 2px 5px 10px grey;
@@ -202,5 +207,13 @@ table{
 }
 
 h2{
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    font-size: 30px;
 }
+
+.rating {
+    color:#ED661F ;
+    font-size: 0px;
+    text-align: justify;
+}
+
